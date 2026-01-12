@@ -56,9 +56,11 @@ Actions taken:
 
 Commands used:
 
-sudo apt install rsyslog -y
-sudo systemctl enable rsyslog
-sudo systemctl restart ssh
+-sudo apt install rsyslog -y
+
+-sudo systemctl enable rsyslog
+
+-sudo systemctl restart ssh
 
 Screenshots:
 ![Linux Server VM Creation](screenshots/update_dependencies.png)
@@ -79,7 +81,7 @@ Input configuration:
 - **App Context:** Search & Reporting
 
 Screenshot:
-- ![Authentication Logs Added:](screenshots/Add_Auth_Logs.png)
+- ![Authentication Logs Added:](screenshots/Add_Auth_Log.png)
 - ![Input Settings:](screenshots/Input_Settings.png)
 
 ---
