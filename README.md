@@ -107,7 +107,9 @@ This detection logic:
 - Aggregates attempts by username and source IP
 - Highlights repeated failures consistent with brute-force behavior
 
-Screenshot:
+Screenshots:
+
+![Fake User:](screenshots/Fake_User_SSH.png)
 ![Failed SSH Detection:](screenshots/Failed_SSH_Detection.png)
 
 ---
