@@ -80,6 +80,7 @@ Input configuration:
 
 Screenshot:
 - ![Authentication Logs Added:](screenshots/Add_Auth_Logs.png)
+- ![Input Settings:](screenshots/Input_Settings.png)
 
 ---
 
