@@ -109,7 +109,6 @@ This detection logic:
 
 Screenshots:
 
-![Fake User:](screenshots/Fake_User_SSH.png)
 ![Failed SSH Detection:](screenshots/Failed_SSH_Detection.png)
 
 ---
