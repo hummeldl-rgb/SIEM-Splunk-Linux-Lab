@@ -24,7 +24,7 @@ The lab focuses on ingesting Linux authentication logs and detecting **failed SS
 - Configured SSH service for authentication testing
 
 Screenshots:
-![Linux Server VM Creation:] `screenshots/Linux_Server_VM_Success_Creation.png`
+![Linux Server VM Creation:](screenshots/Linux_Server_VM_Success_Creation.png)
 
 ---
 
@@ -35,9 +35,9 @@ Screenshots:
 - Enabled Splunk to start at boot
 
 Screenshots:
-![Splunk Download:]`screenshots/Splunk_Download_Success.png`
- ![Splunk running successfully:]`screenshots/Splunkd_Running.png`
- ![Successful Splunk login:]`screenshots/Splunk_Login_Success.png`
+![Splunk Download:](screenshots/Splunk_Download_Success.png)
+![Splunk running successfully:](screenshots/Splunkd_Running.png)
+![Successful Splunk login:](screenshots/Splunk_Login_Success.png)
 
 ---
 
@@ -61,9 +61,9 @@ sudo systemctl enable rsyslog
 sudo systemctl restart ssh
 
 Screenshots:
-![Linux Server VM Creation] `screenshots/update_dependencies.png`
-![SSH relinked] `screenshots/SSH_Relink.png`
-![Authentication logs added:]`screenshots/Add_Auth_Logs.png`
+![Linux Server VM Creation](screenshots/update_dependencies.png)
+![SSH relinked](screenshots/SSH_Relink.png)
+![Authentication logs added:](screenshots/Add_Auth_Logs.png)
 
 ---
 
@@ -79,7 +79,7 @@ Input configuration:
 - **App Context:** Search & Reporting
 
 Screenshot:
-- ![Authentication Logs Added:]`screenshots/Add_Auth_Logs.png`
+- ![Authentication Logs Added:](screenshots/Add_Auth_Logs.png)
 
 ---
 
@@ -107,7 +107,7 @@ This detection logic:
 - Highlights repeated failures consistent with brute-force behavior
 
 Screenshot:
-![Failed SSH Detection:]`screenshots/Failed_SSH_Detection.png`
+![Failed SSH Detection:](screenshots/Failed_SSH_Detection.png)
 
 ---
 
@@ -122,6 +122,10 @@ Example alert configuration:
 - **Severity:** Medium
 
 This alert enables proactive identification of credential-based attacks and mirrors common SOC alerting workflows.
+
+Screenshots:
+![SSH Alert:](screenshots/SSH_Alert.png)
+![Alert_Email:](screenshots/SSH_Alert_Email.png)
 
 ---
 
